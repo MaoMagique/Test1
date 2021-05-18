@@ -1,0 +1,69 @@
+#nineplots { width: 550px; box-sizing: border-box; margin: 0px auto; background: #1b1b1b; position: relative; }
+#ninetabs { position: relative; position: relative; width: 550px; height: 350px; position: relative; overflow: hidden;  }
+#ninetabs input { display: none; }
+#ninetabs label { position: absolute; z-index: 99; color: #ffffff; font-size: 20px; text-align: center; width: 40px; cursor: pointer; transition: all ease 1s; -moz-transition: all ease 1s; box-sizing: border-box; margin: 25px 20px 0px 0px; opacity: 0.75; -moz-opacity: 0.75; }
+#ninetabs label#ninetab1 { right: 400px; }
+#ninetabs label#ninetab2 { right: 350px; }
+#ninetabs label#ninetab3 { right: 300px; }
+#ninetabs label#ninetab4 { right: 250px; }
+#ninetabs label#ninetab5 { right: 200px; }
+#ninetabs label#ninetab6 { right: 150px; }
+#ninetabs label#ninetab7 { right: 100px; }
+#ninetabs label#ninetab8 { right: 50px; }
+#ninetabs label#ninetab9 { right: 0px; }
+    
+input:checked+label#ninetab1 { color:goldenrod; opacity: 1; -moz-opacity: 1; }#ninetabs input:checked+label#ninetab2 { color:indianred; opacity: 1; -moz-opacity: 1; }#ninetabs input:checked+label#ninetab3 { color:darkolivegreen; opacity: 1; -moz-opacity: 1; }#ninetabs input:checked+label#ninetab4 { color:teal; opacity: 1; -moz-opacity: 1; }#ninetabs input:checked+label#ninetab5 { color:orange; opacity: 1; -moz-opacity: 1; }#ninetabs input:checked+label#ninetab6 { color:salmon; opacity: 1; -moz-opacity: 1; }#ninetabs 
+input:checked+label#ninetab7 { color: sienna; opacity: 1; -moz-opacity: 1; }#ninetabs 
+input:checked+label#ninetab8 { color: hotpink; opacity: 1; -moz-opacity: 1; }#ninetabs 
+input:checked+label#ninetab9 { color: plum; opacity: 1; -moz-opacity: 1; }#ninetabs 
+
+#ninetab1:hover { color:goldenrod; }#ninetab2:hover { color:indianred; }#ninetab3:hover { color:darkolivegreen; }#ninetab4:hover { color:teal; }#ninetab5:hover { color:orange; }#ninetab6:hover { color:salmon; } #ninetab7:hover { color:sienna; } #ninetab8:hover { color:hotpink; } #ninetab9:hover { color:plum; } 
+
+#ninesider { position: absolute; width: 120px; height: 350px; left: 0; top: 0; z-index: 15; }
+
+.nineplotter { width: 550px; height: 350px; box-sizing: border-box; padding: 70px 30px 30px 150px; font-family: Arimo; font-size: 13px; color: #FFFFFF; position: absolute; }
+.nineplotter:before { content: " "; width: 120px; height: 350px; display: block; background: rgba(0,0,0,0.5); position: absolute; top: 0; left: 0; }
+.ninename { font-family: "Nunito Sans"; font-weight: 900; font-size: 15px; letter-spacing: 2px; position: relative; top: 0px; left: -80px; z-index: 15; color: #f3f3f3; transition: all ease 1s; }
+.ninename b { display: block; font-weight: 900; font-size: 8px; line-height: 10px; }
+.nineplotting { text-align: right; font-family: Roboto Mono; font-weight: 400; box-sizing: border-box; font-size: 15px; line-height: 110%; height: 150px; overflow-y: scroll; padding-top: 35px; }
+.nineplotting::-webkit-scrollbar { width: 1px; }
+.nineplotting::-webkit-scrollbar-track { background: transparent; border: 0px solid #111; }
+.nineplotting::-webkit-scrollbar-thumb { background: transparent; border: 0px solid #212121; }
+.nineplotting h1 { font-size: 18px; text-transform: lowercase; padding: 0; margin: 20px 0px 0px 0px; letter-spacing: 1px; }
+.nineplotting h1:after { content: " "; display: block; margin: 15px 0px 13px auto; width: 100px; height: 3px; background: white; }
+.nineplotting p { text-align: justify; padding: 0px; margin: 5px 0px 5px 50px; font-size: 11px; font-weight: 300; }
+.nineplotting hr { width: 100px; margin: 15px 0px 15px auto; border: 0px solid; height: 3px; background: white; }
+.nineplotting i { font-size: 11px; font-weight: 300; }
+.biolink { font-size: 20px; color: #ffffff; position: absolute; right: 30px; bottom: 30px; }
+    
+.char1 { background-image: url(https://i.imgur.com/UgL3avJ.jpg); background-color: #587316; background-size: cover; background-blend-mode: overlay; opacity: 0; -moz-opacity: 0; transition: all ease 1s; z-index: 1;  }
+.char2 { background-image: url(https://i.imgur.com/NaKr6Kp.png); background-color: #503b13; background-size: cover; background-blend-mode: overlay; opacity: 0; -moz-opacity: 0; transition: all ease 1s; z-index: 1; }
+.char3 { background-image: url(https://i.imgur.com/Y28VFvl.jpg); background-color: #6B8E23; background-size: cover; background-blend-mode: overlay; opacity: 0; -moz-opacity: 0; transition: all ease 1s; z-index: 1; }
+.char4 { background-image: url(https://i.imgur.com/KhwoFkj.jpg); background-color: #0f3544; background-size: cover; background-blend-mode: overlay; opacity: 0; -moz-opacity: 0; transition: all ease 1s; z-index: 1; }
+.char5 { background-image: url(https://blizzardwatch.com/wp-content/uploads/2016/07/OW_ana_scope_legacy.jpg); background-color: #312104; background-size: cover; background-blend-mode: overlay; opacity: 0; -moz-opacity: 0; transition: all ease 1s; z-index: 1; }
+.char6 { background-image: url(https://i.imgur.com/Ypx7Fku.jpg); background-color: #310d0d; background-size: cover; background-blend-mode: overlay; opacity: 0; -moz-opacity: 0; transition: all ease 1s; z-index: 1; } 
+.char7 { background-image: url(https://i.imgur.com/zuG6OnI.jpg); background-color: #1d0f04; background-size: cover; background-blend-mode: overlay; opacity: 0; -moz-opacity: 0; transition: all ease 1s; z-index: 1; } 
+.char8 { background-image: url(https://i.pinimg.com/564x/6b/57/80/6b57808141314480c2301698566eb4af.jpg); background-color: #372838; background-size: cover; background-blend-mode: overlay; opacity: 0; -moz-opacity: 0; transition: all ease 1s; z-index: 1; }
+ .char9 { background-image: url(https://i.imgur.com/Juqx95H.jpg); background-color: #5f364e; background-size: cover; background-blend-mode: overlay; opacity: 0; -moz-opacity: 0; transition: all ease 1s; z-index: 1; }
+
+#ninetabs #ninetab1:checked ~ .ninewrap .char1 { opacity: 1; -moz-opacity: 1; z-index: 2; }
+#ninetabs #ninetab2:checked ~ .ninewrap .char2 { opacity: 1; -moz-opacity: 1; z-index: 2; }
+#ninetabs #ninetab3:checked ~ .ninewrap .char3 { opacity: 1; -moz-opacity: 1; z-index: 2; }
+#ninetabs #ninetab4:checked ~ .ninewrap .char4 { opacity: 1; -moz-opacity: 1; z-index: 2; }
+#ninetabs #ninetab5:checked ~ .ninewrap .char5 { opacity: 1; -moz-opacity: 1; z-index: 2; }
+#ninetabs #ninetab6:checked ~ .ninewrap .char6 { opacity: 1; -moz-opacity: 1; z-index: 2; } #ninetabs #ninetab7:checked ~ .ninewrap .char7 { opacity: 1; -moz-opacity: 1; z-index: 2; } 
+#ninetabs #ninetab8:checked ~ .ninewrap .char8 { opacity: 1; -moz-opacity: 1; z-index: 2; } 
+#ninetabs #ninetab9:checked ~ .ninewrap .char9 { opacity: 1; -moz-opacity: 1; z-index: 2; } 
+
+.ninecopyright { font-family: Roboto Mono; width: 550px; margin: 7px auto; text-align: right; font-size: 10px; font-weight: 700; }
+
+.ninestats { font-size: 10px; font-family: "Nunito Sans"; color: #bbb; position: absolute; bottom: 30px; left: 30px; letter-spacing: 1px; width: 150px; }.ninestats b { font-weight: 900; }.stat1, .stat2, .stat3, .stat4, .stat5 { width: 40%; background: #ffffff50; height: 5px; margin-bottom: 10px; transition: all ease 1s; }
+/* CHARACTER #1 STATS */#ninetabs #ninetab1:checked ~ #ninesider .stat1 { width: 20%; background: #f9c051; }#ninetabs #ninetab1:checked ~ #ninesider .stat2 { width: 15%; background: #f9c051; }#ninetabs #ninetab1:checked ~ #ninesider .stat3 { width: 30%; background: #f9c051; }#ninetabs #ninetab1:checked ~ #ninesider .stat4 { width: 65%; background: #f9c051; }#ninetabs #ninetab1:checked ~ #ninesider .stat5 { width: 40%; background: #f9c051; }
+/* CHARACTER #2 STATS */#ninetabs #ninetab2:checked ~ #ninesider .stat1 { width: 85%; background: indianred; }#ninetabs #ninetab2:checked ~ #ninesider .stat2 { width: 65%; background: indianred; }#ninetabs #ninetab2:checked ~ #ninesider .stat3 { width: 50%; background: indianred; }#ninetabs #ninetab2:checked ~ #ninesider .stat4 { width: 70%; background: indianred; }#ninetabs #ninetab2:checked ~ #ninesider .stat5 { width: 65%; background: indianred; }
+/* CHARACTER #3 STATS */#ninetabs #ninetab3:checked ~ #ninesider .stat1 { width: 90%; background: #3c5a39; }#ninetabs #ninetab3:checked ~ #ninesider .stat2 { width: 70%; background: #3c5a39; }#ninetabs #ninetab3:checked ~ #ninesider .stat3 { width: 80%; background: #3c5a39; }#ninetabs #ninetab3:checked ~ #ninesider .stat4 { width: 20%; background: #3c5a39; }#ninetabs #ninetab3:checked ~ #ninesider .stat5 { width: 30%; background: #3c5a39; }
+/* CHARACTER #4 STATS */#ninetabs #ninetab4:checked ~ #ninesider .stat1 { width: 95%; background: teal; }#ninetabs #ninetab4:checked ~ #ninesider .stat2 { width: 90%; background: teal; }#ninetabs #ninetab4:checked ~ #ninesider .stat3 { width: 95%; background: teal; }#ninetabs #ninetab4:checked ~ #ninesider .stat4 { width: 10%; background: teal; }#ninetabs #ninetab4:checked ~ #ninesider .stat5 { width: 80%; background: teal; }
+/* CHARACTER #5 STATS */#ninetabs #ninetab5:checked ~ #ninesider .stat1 { width: 10%; background: #ff9c42; }#ninetabs #ninetab5:checked ~ #ninesider .stat2 { width: 20%; background: #ff9c42; }#ninetabs #ninetab5:checked ~ #ninesider .stat3 { width: 10%; background: #ff9c42; }#ninetabs #ninetab5:checked ~ #ninesider .stat4 { width: 80%; background: #ff9c42; }#ninetabs #ninetab5:checked ~ #ninesider .stat5 { width: 50%; background: #ff9c42; }
+/* CHARACTER #6 STATS */#ninetabs #ninetab6:checked ~ #ninesider .stat1 { width: 20%; background: #a20606; }#ninetabs #ninetab6:checked ~ #ninesider .stat2 { width: 70%; background: #a20606; }#ninetabs #ninetab6:checked ~ #ninesider .stat3 { width: 15%; background: #a20606; }#ninetabs #ninetab6:checked ~ #ninesider .stat4 { width: 50%; background: #a20606; }#ninetabs #ninetab6:checked ~ #ninesider .stat5 { width: 80%; background: #a20606; }
+/* CHARACTER #7 STATS */#ninetabs #ninetab7:checked ~ #ninesider .stat1 { width: 70%; background: sienna; }#ninetabs #ninetab7:checked ~ #ninesider .stat2 { width: 30%; background: sienna; }#ninetabs #ninetab7:checked ~ #ninesider .stat3 { width: 70%; background: sienna; }#ninetabs #ninetab7:checked ~ #ninesider .stat4 { width: 15%; background: sienna; }#ninetabs #ninetab7:checked ~ #ninesider .stat5 { width: 10%; background: sienna; }
+/* CHARACTER #8 STATS */#ninetabs #ninetab8:checked ~ #ninesider .stat1 { width: 5%; background: hotpink; }#ninetabs #ninetab8:checked ~ #ninesider .stat2 { width: 5%; background: hotpink; }#ninetabs #ninetab8:checked ~ #ninesider .stat3 { width: 2%; background: hotpink; }#ninetabs #ninetab8:checked ~ #ninesider .stat4 { width: 90%; background: hotpink; }#ninetabs #ninetab8:checked ~ #ninesider .stat5 { width: 65%; background: hotpink; }
+/* CHARACTER #9 STATS */#ninetabs #ninetab9:checked ~ #ninesider .stat1 { width: 95%; background: #8150a5; }#ninetabs #ninetab9:checked ~ #ninesider .stat2 { width: 80%; background: #8150a5; }#ninetabs #ninetab9:checked ~ #ninesider .stat3 { width: 85%; background: #8150a5; }#ninetabs #ninetab9:checked ~ #ninesider .stat4 { width: 10%; background: #8150a5; }#ninetabs #ninetab9:checked ~ #ninesider .stat5 { width: 75%; background: #8150a5; }
